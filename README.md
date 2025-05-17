@@ -125,19 +125,10 @@ npm run stop:pm2
 └── temp
 ```
 
-# TQTO
-
-TQTO (Thanks To) is a part of this project to give appreciation to those who have contributed, provided assistance, or inspiration in the development of this project.
-
-## Thank You List
-
-Thank you to the following individuals, communities and organizations who have helped us:
-
-### Developers & Contributors
-
-- [**ArifzynXD**](https://github.com/Arifzyn19) - Lead developer and project owner, responsible for the main development and overall direction of the project.
-- [**AmirulDev**](https://github.com/amiruldev20) - Provided inspiration and valuable insights, especially in building bot functionalities using libraries like Baileys.
-- [**DikaArdnt**](https://github.com/DikaArdnt) - Some parts of the codebase were inspired and adapted from his projects, particularly for bot features and backend structure.
+#### TQTO :
+[![DikaArdnt](https://github.com/DikaArdnt.png?size=100)](https://github.com/DikaArdnt)
+[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
+[![AmirulDev](https://github.com/techwiz37.png?size=100)](https://github.com/techwiz37)
 
 ### LICENSE
 
