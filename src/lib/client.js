@@ -1,9 +1,9 @@
 import baileys from "@whiskeysockets/baileys";
 import { Client } from "../lib/serialize.js";
+import storeSystem from './store.js'
 import pino from "pino";
 const {
   default: WAConnect,
-  makeInMemoryStore,
   Browsers,
   fetchLatestBaileysVersion,
   fetchLatestWaWebVersion,
@@ -16,7 +16,7 @@ const createClient = async (options = {}) => {
   }).child({ class: "client" });
   logger.level = "fatal";
 
-  const store = makeInMemoryStore({ logger });
+  const store = storeSystem.makeInMemoryStore({ logger });
   const { state, saveCreds } = await useMultiFileAuthState(options.session);
   const client = WAConnect({
     logger: pino({ level: "silent" }),
